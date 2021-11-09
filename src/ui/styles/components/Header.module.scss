@@ -1,0 +1,51 @@
+.container {
+    $fontSize: 0.95rem;
+    $buttonPadding: 0.75rem 1.25rem;
+
+    width: 100%;
+    padding: 0.45rem 1.5rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: fixed;
+    top: 0;
+    z-index: 0;
+
+    background-color: white;
+    box-shadow: 0 0 7.5px rgba(0, 0, 0, 0.5);
+
+    h4 {
+        width: max-content;
+        padding: $buttonPadding;
+
+        font-size: $fontSize;
+        font-weight: normal;
+
+        cursor: pointer;
+
+        &:hover {
+            background-color: rgb(200, 200, 200);
+        }
+    }
+
+    div {
+        ul {
+            display: flex;
+
+            li {
+                padding: $buttonPadding;
+
+                list-style: none;
+                font-size: $fontSize;
+
+                cursor: pointer;
+
+                &:hover {
+                    background-color: rgb(200, 200, 200);
+                }
+            }
+        }
+    }
+}
