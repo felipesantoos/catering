@@ -1,13 +1,15 @@
 import Header from "../components/Header";
-import BurgerImage from "../../asserts/images/burger.jpg";
 
 import styles from "../styles/pages/HomePage.module.scss";
+import Banner from "../components/Banner";
+import About from "../components/About";
 
 function HomePage() {
     return (
         <div className={styles.container}>
             <Header />
-            <img src={BurgerImage} alt="" />
+            <Banner />
+            <About />
         </div>
     );
 }
