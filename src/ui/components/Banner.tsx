@@ -1,4 +1,4 @@
-import BurgerImage from "../../asserts/images/burger.jpg";
+import BurgerImage from "../../assets/images/burger.jpg";
 
 import styles from "../styles/components/Banner.module.scss";
 

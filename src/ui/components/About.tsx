@@ -1,4 +1,4 @@
-import Food from "../../asserts/images/food.jpg";
+import Food from "../../assets/images/food.jpg";
 
 import styles from "../styles/components/About.module.scss";
 
