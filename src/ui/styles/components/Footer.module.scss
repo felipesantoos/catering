@@ -1,0 +1,15 @@
+.container {
+    padding: 3rem;
+
+    display: flex;
+    justify-content: center;
+
+    font-size: 0.9rem;
+    background-color: rgb(240, 240, 240);
+
+    span {
+        text-decoration-line: underline;
+
+        cursor: pointer;
+    }
+}

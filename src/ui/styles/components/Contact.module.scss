@@ -1,3 +1,46 @@
 .container {
-    padding: 5rem;
+    padding: 4rem 10vw;
+
+    h1 {
+        margin-bottom: 3rem;
+        font-weight: normal;
+    }
+
+    p {
+        margin-bottom: 1.5rem;
+        font-size: 0.9rem;
+    }
+
+    h3 {
+        margin-bottom: 1.5rem;
+        color: #607D8B;
+        letter-spacing: 0;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+
+        input {
+            width: 100%;
+            margin-bottom: 1rem;
+            padding: 1rem;
+
+            font-size: 0.9rem;
+
+            border: none;
+            border-bottom: 1px solid rgb(200, 200, 200);
+        }
+
+        button {
+            margin-top: 1rem;
+            width: max-content;
+            padding: 0.65rem 1rem;
+
+            font-size: 0.9rem;
+            background-color: rgb(240, 240, 240);
+
+            border: none;
+        }
+    }
 }

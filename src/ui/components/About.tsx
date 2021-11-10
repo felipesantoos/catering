@@ -4,8 +4,11 @@ import styles from "../styles/components/About.module.scss";
 
 function About() {
     return (
-        <div className={styles.container}>
-            <img src={Food} alt="" />
+        <div className={styles.container} id="about">
+            <img 
+                src={Food} 
+                alt="Many kinds of foods: rice, chicken, lemon etc."
+            />
             <div>
                 <h1>About Catering</h1>
                 <span>Tradition since 1889</span>

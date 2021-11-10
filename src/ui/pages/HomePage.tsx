@@ -5,6 +5,7 @@ import Banner from "../components/Banner";
 import About from "../components/About";
 import Menu from "../components/Menu";
 import Contact from "../components/Contact";
+import Footer from "../components/Footer";
 
 function HomePage() {
     return (
@@ -14,6 +15,7 @@ function HomePage() {
             <About />
             <Menu />
             <Contact />
+            <Footer />
         </div>
     );
 }
