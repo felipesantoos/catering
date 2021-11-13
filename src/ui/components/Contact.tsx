@@ -18,7 +18,7 @@ function Contact() {
             <form>
                 <input type="text" placeholder="Name" />
                 <input type="number" placeholder="How many people" />
-                <input type="datetime-local" value="2021-11-10T19:30" />
+                <input type="datetime-local"/>
                 <input type="text" placeholder="Message/Special requiriments" />
                 <button>SEND MESSAGE</button>
             </form>

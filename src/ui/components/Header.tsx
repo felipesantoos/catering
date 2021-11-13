@@ -43,7 +43,7 @@ function Header() {
     return (
         <header ref={headerRef} className={styles.container}>
             <div>
-                <h4><a href="#">Gourmet au Catering</a></h4>
+                <h4><a href="#banner">Gourmet au Catering</a></h4>
                 <GiHamburgerMenu onClick={showMenu} />
             </div>
             <div ref={menuRef}>
